@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title>GURU</title>
+ <title>AMEEN SER</title>
  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
  <style>
 body {
@@ -9,7 +9,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url('https://image.lexica.art/full_webp/109e7582-4bce-466e-9a97-d9650140553d');
+  background-image: url('https://i.imgur.com/7U0dq0h.jpeg');
   background-size: cover; 
   background-position: center; 
   font-family: 'Helvetica', sans-serif;
@@ -126,15 +126,15 @@ body {
 <body>
  <div class="container">
   <div class="header">
-   <h1>GURU BOT PAIRING</h1>
+   <h1>KEIKO BOT PAIRING</h1>
   </div>
   <div class="main">
    <form>
     <span>
      <i class="fa fa-user"></i>
-     <input type="number" id="number" placeholder="enter your phone number with country code" name="">
+     <input type="number" id="number" placeholder="ENTER YOUR WHATSAPP NUMBER HERE WITH COUNTRY CODE" name="">
     </span><br>
-     <button id="submit">submit</button>
+     <button id="submit">SUBMIT</button>
 <main id="pair"></main>
    </form>
   </div>
@@ -169,7 +169,7 @@ body {
         e.preventDefault();
   
         if (isCodeDisplayed) {
-          alert("Please wait for 2 minutes before requesting a new code.");
+          alert("Please Wait Requesting Code...");
           return;
         }
   
@@ -179,9 +179,9 @@ body {
         }
   
         if (!c.value) {
-          a.innerHTML = '<a style="color:black;font-weight:bold">Enter your WhatsApp number with a country code</a><br><br>';
+          a.innerHTML = '<a style="color:black;font-weight:bold">Enter Your Number Here With Country Code</a><br><br>';
         } else if (c.value.replace(/[^0-9]/g, "").length < 11) {
-          a.innerHTML = '<a style="color:black;font-weight:bold">Invalid number format</a><br><br>';
+          a.innerHTML = '<a style="color:black;font-weight:bold">Invalid Number Format</a><br><br>';
         } else {
           isSubmitting = true;
   
@@ -210,7 +210,7 @@ body {
               data
             } = await axios(`/pair?phone=${bc}`);
             let code = data.code || "Service Unavailable";
-            a.innerHTML = '<font id="copy" onclick="Copy()" style="color:red;font-weight:bold" size="5">CODE: <span style="color:black;font-weight:bold">' + code + '</span></font><br><br><br>';
+            a.innerHTML = '<font id="copy" onclick="Copy()" style="color:green;font-weight:bold" size="5">CODE: <span style="color:black;font-weight:bold">' + code + '</span></font><br><br><br>';
             isCodeDisplayed = true;
   
             setTimeout(() => {
