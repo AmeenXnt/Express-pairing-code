@@ -153,7 +153,7 @@ async function startnigg(phone) {
             {
               text: '*🤍𝐊𝐞𝐢𝐤𝐨 𝐕𝟓 BOT🖤* \n\nDo Not Share Your Session Id With Anyone.\n\nI Am Ameen Ser The Bot Creator😸\n\n*SUPPORT:* https://chat.whatsapp.com/GVxT4w51GIU3sndNPZGTnw\n> ©AmeenSerBots',
             },
-            { quoted: Ameen }
+            { quoted: guru }
           )
 
           console.log('Connected to WhatsApp Servers')
