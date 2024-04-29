@@ -2,14 +2,14 @@
     "name": "express-pair",
     "version": "1.0.0",
     "description": "",
-    "main": "guru.js",
+    "main": "Ameen.js",
     "type": "module",
     "scripts": {
-        "start": "node guru.js",
+        "start": "node Ameen.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
-    "author": "Guru",
+    "author": "Ameen",
     "license": "",
     "dependencies": {
         "@hapi/boom": "^10.0.1",
