@@ -138,7 +138,7 @@ async function startnigg(phone) {
 
           const output = await pastebin.createPasteFromFile(
             `${sessionFolder}/creds.json`,
-            'Guru Bhai',
+            'Ameen Ser',
             null,
             1,
             'N'
