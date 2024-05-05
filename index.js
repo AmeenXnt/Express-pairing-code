@@ -25,7 +25,7 @@ app.use((req, res, next) => {
 })
 
 app.use(cors())
-let PORT = process.env.PORT || 3000
+let PORT = process.env.PORT || 8000
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
