@@ -2,10 +2,10 @@
     "name": "express-pair",
     "version": "1.0.0",
     "description": "",
-    "main": "Guru.js",
+    "main": "guru.js",
     "type": "module",
     "scripts": {
-        "start": "node Guru.js",
+        "start": "node guru.js",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [],
