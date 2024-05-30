@@ -4,7 +4,7 @@ const app = express();
 
 // Serve the pair.html file when users visit the /pair endpoint
 app.get('/pair', (req, res) => {
-  res.sendFile(path.join(__dirname, 'pair.html'));
+  res.sendFile(path.join('pair.html'));
 });
 
 // Start the server
